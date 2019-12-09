@@ -1,0 +1,116 @@
+@font-face{
+  font-family: 'design';
+  src: url("../font/hello.ttf");
+}
+i,a,em,span, p {
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+ul, li, ol{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.border-box{box-sizing: border-box;}
+
+.fr{float: right;}
+.fl{float: left;}
+
+// 弹性布局
+.dis-block{display: block;}
+.dis-inline-block{display: inline-block;}
+.dis-flex{display: flex;}
+.flex-box{flex: 1;}
+.flex-dir-col{flex-direction: column;}
+.flex-x-center{justify-content: center;}
+.flex-x-between{justify-content: space-between;}
+.flex-x-end{justify-content: flex-end;}
+.flex-y-center{align-items: center;}
+.flex-y-end{align-items: flex-end;}
+.flex-wrap{flex-wrap: wrap;}
+.flex-nowrap{flex-wrap: nowrap;}
+
+// 边距
+.m-t-10{margin-top: 0.1rem;}
+.m-t-15{margin-top: 0.15rem;}
+.m-t-20{margin-top: 0.2rem;}
+.m-t-30{margin-top: 0.3rem;}
+.m-l-10{margin-left: 0.1rem;}
+.m-l-20{margin-left: 0.2rem;}
+.m-l-30{margin-left: 0.3rem;}
+
+.p-30{padding: 0 0.3rem;}
+
+// 字体大小
+.f-16{font-size: 0.16rem;}
+.f-18{font-size: 0.18rem;}
+.f-20{font-size: 0.2rem;}
+.f-22{font-size: 0.22rem;}
+.f-24{font-size: 0.24rem;}
+.f-26{font-size: 0.26rem;}
+.f-28{font-size: 0.28rem;}
+.f-30{font-size: 0.3rem;}
+.f-32{font-size: 0.32rem;}
+.f-36{font-size: 0.36rem;}
+.f-38{font-size: 0.38rem;}
+.f-40{font-size: 0.4rem;}
+.f-50{font-size: 0.5rem;}
+.f-60{font-size: 0.6rem;}
+
+// 颜色
+.col-f{color: #fff;}
+.col-13{color: #131313;}
+.col-9{color: #999;}
+.col-6{color: #999;}
+.col-f3c{color: #ff33cc;}
+.col-f0f{color: #FF00FF;}
+
+// 字体对齐方向
+.t-l{text-align: left;}
+.t-c{text-align: center;}
+.t-r{text-align: right;}
+
+// 背景颜色
+.b-f{background: #fff;}
+.b-9{background: #999;}
+.b-13{background: #131313;}
+.b-33{background: #333333;}
+.b-00{background: #000;}
+.b-c3f{background: #cc33ff;}
+.b-f0f{background: #ff00ff;}
+
+.oh{overflow: hidden;}
+
+// 换行超出省略号
+.onelist-hidden {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.twolist-hidden {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.threelist-hidden {
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.t-line{
+  text-decoration: line-through;
+}
+.content{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
